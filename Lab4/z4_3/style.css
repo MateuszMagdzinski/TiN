@@ -1,0 +1,16 @@
+.highlight{
+    background-color: yellow;
+    color: red;
+}
+.image-border{
+    border: 2px solid blue;
+}
+#nav {
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.underline{
+    color: red;
+    text-decoration: underline;
+}
