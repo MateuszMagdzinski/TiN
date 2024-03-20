@@ -1,0 +1,11 @@
+#przykladowy-element {
+    width: 150px;
+    height: 50vh;
+    margin: 20px;
+    color: red;
+    background-color: blue;
+    opacity: 0.5;
+    border: 1px dashed green;
+    box-shadow: 10px 10px grey;
+    font-size: 20pt;
+}
