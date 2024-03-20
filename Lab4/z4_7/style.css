@@ -1,0 +1,13 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+.box1 {
+    background-color: rgb(255, 0, 0); /* tło w kolorze czerwonym za pomocą funkcji rgb */
+}
+h1 {
+    color: rgba(255, 255, 255, 0.8); /* kolor biały z przezroczystością 80% za pomocą funkcji rgba */
+}
+.box2 {
+    background-color: hsla(240, 100%, 50%, 0.5); /* tło w kolorze niebieskim z przezroczystością 50% za pomocą funkcji hsla */
+}
