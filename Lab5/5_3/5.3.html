@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Przykładowy plik HTML z zastosowanym CSS</title>
+    <style>
+        /* CSS z poprzedniej odpowiedzi */
+        a[target="_blank"] {
+            background-color: yellow;
+        }
+
+        input[type="text"] {
+            color: blue;
+        }
+
+        div[data-section="header"] {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+        img[alt] {
+            border: 1px solid black;
+        }
+
+        button[disabled] {
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<a href="#" target="_blank">Link otwierający się w nowym oknie</a>
+<br><br>
+<input type="text" value="Tekst input">
+<br><br>
+<div data-section="header">Div z atrybutem data-section="header"</div>
+<br><br>
+<img src="example.jpg" alt="Przykładowy obrazek">
+<br><br>
+<button disabled>Przycisk nieaktywny</button>
+</body>
+</html>
